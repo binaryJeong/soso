@@ -1,0 +1,127 @@
+.main input[type=radio] {
+    display: none;
+}
+
+#technology:checked ~ .tab label:nth-child(1),
+#consumer_service:checked ~ .tab label:nth-child(2),
+#health:checked ~ .tab label:nth-child(3),
+#consumer_non_durables:checked ~ .tab label:nth-child(4),
+#durables:checked ~ .tab label:nth-child(5),
+#capital:checked ~ .tab label:nth-child(6),
+#transport:checked ~ .tab label:nth-child(7),
+#utility:checked ~ .tab label:nth-child(8),
+#finance:checked ~ .tab label:nth-child(9),
+#etc:checked ~ .tab label:nth-child(10)
+
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+}
+
+.content > div {
+    display: none;
+}
+
+#technology:checked ~ .content div:nth-child(1),
+#consumer_service:checked ~ .content div:nth-child(2),
+#health:checked ~ .content div:nth-child(3),
+#consumer_non_durables:checked ~ .content div:nth-child(4),
+#durables:checked ~ .content div:nth-child(5),
+#capital:checked ~ .content div:nth-child(6),
+#transport:checked ~ .content div:nth-child(7),
+#utility:checked ~ .content div:nth-child(8),
+#finance:checked ~ .content div:nth-child(9),
+#etc:checked ~ .content div:nth-child(10)
+{
+    display: block;
+}
+
+.main {
+    margin: 0 auto;
+    main-width: 1380px;
+    max-width: 100%;
+}
+
+.tab {
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.tab label {
+    font-size: 15px;
+    height: 50px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+    float: left;
+    width: 15%;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.content {
+    background-color: white;
+    height: 400px;
+    overflow: scroll;
+    margin-left: 0px;
+}
+
+.content > div {
+    padding: 30px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+table {
+    width: 900px;
+    margin-top: 0px;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 0;
+}
+
+thead th {
+    background: #000;
+    color: #fff;
+    font-weight: initial;
+    text-align: center;
+}
+
+tr {
+    background: #f1f1f1;
+}
+
+tr:nth-child(2n) {
+    background: #e0e0e0;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+}
+
+
+tfoot tr {
+    background: none;
+}
+
+tfoot td {
+    padding: 12px 2px;
+    font-style: italic;
+    color: #8a97a0;
+}
+
+
+
+
+
+
+

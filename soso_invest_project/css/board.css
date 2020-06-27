@@ -1,0 +1,163 @@
+/* 게시판 글쓰기(board_form.php) */
+#boardBox {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#boardBbox h3 {
+    margin-top: 30px;
+    padding: 10px;
+    border-bottom: solid 2px red;
+    font-size: 23px;
+    font-family: "Arial Black", serif;
+}
+
+#board span {
+    display: inline-block;
+}
+
+#board .col1 {
+    width: 150px;
+}
+
+#board li {
+    padding: 12px;
+    border-bottom: solid 1px #dddddd;
+}
+
+#board input {
+    width: 500px;
+    height: 25px;
+}
+
+#board textarea {
+    width: 500px;
+    height: 150px;
+}
+
+#board #textArea {
+    position: relative;
+    height: 158px;
+}
+
+#board #textArea .col1 {
+    position: absolute;
+    top: 10px;
+    font-family: "Arial Black", serif;
+    font-size: 20px;
+}
+
+#board #textArea .col2 {
+    position: absolute;
+    left: 166px;
+    font-family: "Arial Black", serif;
+    font-size: 20px;
+}
+
+#boardBox .buttons {
+    text-align: right;
+    margin: 20px 0 40px 0;
+}
+
+#boardBox .buttons li {
+    display: inline;
+}
+
+#boardBox .buttons button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* 게시판 목록보기(board_list.php) */
+#board_list li {
+    padding: 10px 0;
+    border-bottom: solid 1px #dddddd;
+}
+
+#board_list span {
+    display: inline-block;
+    text-align: center;
+}
+
+#board_list .col1 {
+    width: 80px;
+    font-family: "Arial Black", serif;
+    font-size: 15px;
+}
+
+#board_list .col2 {
+    width: 330px;
+    text-align: left;
+    font-family: "Arial Black", serif;
+    font-size: 15px;
+}
+
+#board_list .col3 {
+    width: 100px;
+    font-family: "Arial Black", serif;
+    font-size: 15px;
+}
+
+#board_list .col4 {
+    width: 40px;
+    font-family: "Arial Black", serif;
+    font-size: 15px;
+}
+
+#board_list .col5 {
+    width: 180px;
+    font-family: "Arial Black", serif;
+    font-size: 15px;
+}
+
+#board_list .col6 {
+    width: 40px;
+    font-family: "Arial Black", serif;
+    font-size: 15px;
+}
+
+#page_num {
+    text-align: center;
+    margin: 30px 0
+    font-family: "Arial Black", serif;
+    font-size: 15px;
+}
+
+#page_num li {
+    display: inline;
+}
+
+/* 게시판 내용보기 : board_view.php */
+#boardBox {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#boardBox .title {
+    margin-top: 30px;
+    padding: 10px;
+    border-bottom: solid 2px #516e7f;
+    font-size: 20px;
+    font-family: "Arial Black", serif;
+}
+
+#view_content li:nth-child(1) {
+    padding: 15px;
+    border-bottom: solid 1px #aaaaaa;
+}
+
+#view_content .col2 {
+    float: right;
+}
+
+#view_content li:nth-child(2) {
+    padding: 15px 15px 80px 15px;
+    border-bottom: solid 1px #cccccc;
+}
+
+#view_content li:nth-child(3) button {
+    padding: 5px 20px;
+    margin: 15px 0 40px 720px;
+    cursor: pointer;
+}
